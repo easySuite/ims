@@ -5,6 +5,6 @@ version = "7.x-1.0"
 core = "7.x"
 dependencies[] = ding_provider
 dependencies[] = fbs
-configure = admin/config/ding/ims
+configure = admin/config/ding/provider/ims
 files[] = lib/ims-client/ImsService.php
 
