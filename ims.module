@@ -53,7 +53,5 @@ function ims_placements(array $provider_ids) {
   $service = new ImsService(variable_get('ims_wsdl_url'), variable_get('ims_username'), variable_get('ims_password'));
 
   // Retrieve placements for multiple ting object ids.
-  $retrieved = $service->getByFaustNumber($provider_ids);
- 
-  return $retrieved;
+  return $service->getByFaustNumber($provider_ids);
 }
